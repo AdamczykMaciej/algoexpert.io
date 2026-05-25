@@ -54,3 +54,17 @@ def nonConstructibleChange(coins):
         currentChange += c
 
     return currentChange + 1
+
+
+# #2nd attempt:
+# def transposeMatrix(matrix):
+#     # Write your code here.
+#     newMatrix = []
+#     for cix in range(len(matrix[0])):
+#         newRow = []
+#         for rix in range(len(matrix)):
+#             newRow.append(matrix[rix][cix])
+#         newMatrix.append(newRow)
+#     print(matrix)
+#     print(newMatrix)
+#     return newMatrix
